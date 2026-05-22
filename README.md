@@ -11,6 +11,9 @@ DevOps: Docker
 
 🏗️ Architecture
 Source files (GUS) ➔ ETL Script ➔ Snowflake / MongoDB ➔ Streamlit.
+Schema (docs/architecture.drawio (2).png)
+<img width="745" height="264" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/730e3834-db10-40f9-997e-35890bdadf2f" />
+
 
 🚀 How to Run?
 ```bash
