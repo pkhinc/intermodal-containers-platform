@@ -1,0 +1,4 @@
+.env
+intermo_app/
+__pycache__/
+.DS_Store
