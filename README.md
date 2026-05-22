@@ -1,18 +1,18 @@
-# Intermodal Transport Data Platform
+# Intermodal Data Platform
 
-Projekt inżynierski realizujący hurtownię danych dla transportu intermodalnego w Polsce.
+An engineering project implementing a data warehouse for intermodal container transport in Poland in 2019-2024.
 
-## 🛠️ Technologie
-- **Cloud Data Warehouse:** Snowflake (warstwy RAW_DATA, DATA_WAREHOUSE, OPERATIONS, MART)
-- **Database:** MongoDB (metadane, logi)
-- **ETL:** Python (Pandas, PyMongo, Snowflake Connector)
-- **UI:** Streamlit
-- **DevOps:** Docker
+🛠️ Technologies
+Cloud Data Warehouse: Snowflake (layers: RAW_DATA, DATA_WAREHOUSE, OPERATIONS, MART)
+Database: MongoDB (metadata, logs)
+ETL: Python (Pandas, PyMongo, Snowflake Connector)
+UI: Streamlit
+DevOps: Docker
 
-## 🏗️ Architektura
-- Pliki źródłowe (GUS) -> Skrypt ETL -> Snowflake / MongoDB -> Streamlit.
+🏗️ Architecture
+Source files (GUS) ➔ ETL Script ➔ Snowflake / MongoDB ➔ Streamlit.
 
-## 🚀 Jak uruchomić?
+🚀 How to Run?
 ```bash
 git clone [https://github.com/pkhinc/intermodal-containers-platform.git](https://github.com/pkhinc/intermodal-containers-platform.git)
 cd intermodal-containers-platform
